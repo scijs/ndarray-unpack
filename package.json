@@ -1,0 +1,38 @@
+{
+  "name": "ndarray-unpack",
+  "version": "0.0.0",
+  "description": "Converts an ndarray into an array-of-arrays",
+  "main": "unpack.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cwise": "~0.3.2",
+    "dup": "~0.0.0"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4",
+    "zeros": "~0.0.0"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/ndarray-unpack.git"
+  },
+  "keywords": [
+    "ndarray",
+    "native",
+    "array",
+    "array-of-arrays",
+    "numeric"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "9755f54240a834ca380e11b09735765d372a2fe9",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/ndarray-unpack/issues"
+  }
+}
