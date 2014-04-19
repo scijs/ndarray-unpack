@@ -1,21 +1,23 @@
 {
   "name": "ndarray-unpack",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Converts an ndarray into an array-of-arrays",
   "main": "unpack.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "cwise": "~0.3.2",
-    "dup": "~0.0.0"
+    "dup": "~0.0.0",
+    "cwise-compiler": "^0.1.0"
   },
   "devDependencies": {
     "tape": "~1.0.4",
-    "zeros": "~0.0.0"
+    "zeros": "~0.0.0",
+    "cwise-bake": "0.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tap test/*.js",
+    "build": "node build.js > dounpack.js"
   },
   "repository": {
     "type": "git",
